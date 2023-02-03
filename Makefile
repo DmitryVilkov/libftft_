@@ -13,6 +13,9 @@ SRC =	ft_bzero.c \
 		ft_strchr.c \
 		ft_strrchr.c \
 		ft_strncmp.c \
+		ft_atoi.c \
+		ft_strlcpy.c \
+		ft_strlcat.c \
 
 
 OBJS = $(SRC:.c=.o)

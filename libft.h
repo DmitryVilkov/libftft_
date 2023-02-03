@@ -6,7 +6,7 @@
 /*   By: dvilkov <dvilkov@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/15 19:04:57 by dvilkov           #+#    #+#             */
-/*   Updated: 2023/01/21 15:42:22 by dvilkov          ###   ########.fr       */
+/*   Updated: 2023/02/03 19:18:08 by dvilkov          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,6 +30,9 @@ int		ft_tolower(int c);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(char	*s1, char	*s2, unsigned	int n);
+int		ft_atoi(char	*str);
+size_t	ft_strlcpy(char *restrict dst, const char *src, size_t	dstsize);
+size_t	ft_strlcat(char *dst, const char *src, size_t siz);
 
 
 #endif
